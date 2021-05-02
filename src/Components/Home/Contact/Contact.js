@@ -40,10 +40,8 @@ const Contact = () => {
                             <textarea type="text" class="form-control textarea" name='message' placeholder='Message' required/>
                         </div>
 
-                        <button type="submit" class="btn-pro">Send Email</button>
+                        <button type="submit" class="btn btn-primary">Send MAIL</button>
                     </form>
-
-                    
                 </div>
             </div>
         </section>
