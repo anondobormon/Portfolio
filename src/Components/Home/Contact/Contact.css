@@ -1,0 +1,30 @@
+
+
+
+.contact-form{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    /* border: 1px solid black; */
+}
+.contact{
+    padding-top: 20px;
+    /* border: 1px solid black; */
+}
+
+
+.input{
+    width: 100%;
+    padding: 10px;
+}
+.contact textarea{
+    height: 200px;
+}
+
+.contact-me{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact-me h1{
+    margin-bottom: 30px;
+}

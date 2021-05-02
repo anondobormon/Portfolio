@@ -1,0 +1,25 @@
+
+.footer{
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+}
+.footer-section{
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-icon ul{
+    display: flex;
+    list-style: none;
+}
+.footer-icon ul li{
+    padding:7px 12px;
+    border: 1px solid black;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}

@@ -1,0 +1,84 @@
+
+
+
+
+.project-heading{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.project-heading h1{
+    position: relative;
+    margin-bottom: 20px;
+}
+.project-heading h1::before{
+        content: '';
+        bottom: -10px;
+        left: 40%;
+        width: 120px;
+        height: 5px;
+        background: gray;
+        position: absolute;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
+    margin: 50px;
+    transition: ease-in 0.5s;
+    /* width: 610px; */
+}
+/* .project:hover .project-details{
+    margin-left: -100px;
+} */
+.project-image{
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.project-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.project-details{
+    padding: 20px;
+    width: 600px;
+    /* border: 1px solid black; */
+    margin: -30px;
+    height: 270px;
+    border-radius: 5px;
+    background: burlywood;
+}
+
+.project-btn{
+    border: none;
+    background: lightgray;
+    margin: 5px;
+    padding: 5px 15px;
+    border-radius: none;
+}
+
+.link{
+    font-size: 25px;
+    color: black;
+    padding: 0 10px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .project{
+        display: block;
+        margin: auto;
+        width: 600px;
+    }
+    .work{
+        /* text-align: center; */
+    }
+    .project-details{
+        margin: 0px;
+        margin-top: -10px;  
+    }
+  }
