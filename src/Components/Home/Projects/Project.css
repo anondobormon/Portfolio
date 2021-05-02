@@ -29,10 +29,16 @@
     margin: 50px;
     transition: ease-in 0.5s;
     /* width: 610px; */
+    
 }
-/* .project:hover .project-details{
-    margin-left: -100px;
-} */
+.project:hover .project-details{
+    margin-left: -600px;
+    color: black;
+    /* background: transparent; */
+    background: rgba(gray, gray, gray, 0.7);
+    /* background: transparent; */
+     /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+}
 .project-image{
     width: 600px;
     height: 300px;
@@ -50,7 +56,9 @@
     margin: -30px;
     height: 270px;
     border-radius: 5px;
-    background: burlywood;
+    background: #30336b;
+    color: white;
+    transition: 1s ease;
 }
 
 .project-btn{
@@ -58,7 +66,7 @@
     background: lightgray;
     margin: 5px;
     padding: 5px 15px;
-    border-radius: none;
+    border-radius: 10px;
 }
 
 .link{
