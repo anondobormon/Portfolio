@@ -3,3 +3,8 @@
 .nav{
     margin: 0 8%;
 }
+.nav-gation{
+    position: sticky;
+    background: #0a3d62;
+    color: white;
+}

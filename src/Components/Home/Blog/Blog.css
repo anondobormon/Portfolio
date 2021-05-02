@@ -3,4 +3,6 @@
 .cards{
     height: 300px;
     overflow: hidden;
+    margin-top: 20px;
+    border: none;
 }

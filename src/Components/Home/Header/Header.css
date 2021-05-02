@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .header-main{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-image: linear-gradient(90deg, #0a3d62 60%, #e58e26 40%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header{
     width: 600px;
-    margin: 9% 8%;
-    /* border: 1px solid black; */
-    
+    margin: 8% 9%;
+}
+.p-photo{
+    border: 2px solid #0a3d62;
+    margin-right: 3%;
 }
 
 .main-header{
@@ -84,7 +89,15 @@
     opacity: 100%;}
   }
 
-
+  @media screen and (max-width: 1200px) {
+    .header-main{
+        display: block;
+        background: #0a3d62;
+    }
+    .p-photo{
+        display: none;
+    }
+  }
 
 
 

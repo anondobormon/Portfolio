@@ -3,7 +3,7 @@ import './Blog.css'
 import img1 from '../../../image/node.png'
 import img2 from '../../../image/react.png'
 import img3 from '../../../image/js.png'
-import img4 from '../../../image/js.png'
+import img4 from '../../../image/html.png'
 
 const Blog = () => {
     return (
@@ -17,6 +17,7 @@ const Blog = () => {
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text">Last updated 3 mins ago</p>
+                                <p><img src="https://img.icons8.com/nolan/50/web.png"/></p>
                             </div>
                         </div>
                     </div>

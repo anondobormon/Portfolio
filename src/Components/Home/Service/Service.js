@@ -1,7 +1,5 @@
 import React from 'react';
 import './Service.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -9,17 +7,17 @@ const services = [
     {
         name: 'Consultation',
         des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quo.',
-        icon: 'icon'
+        icon: 'https://img.icons8.com/nolan/50/web.png'
     },
     {
         name: 'Web Development',
         des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quo.',
-        icon: 'icon'
+        icon: 'https://img.icons8.com/cute-clipart/50/000000/web.png'
     },
     {
         name: 'Logo Design',
         des: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quo.',
-        icon: 'icon'
+        icon: 'https://img.icons8.com/nolan/50/designer.png'
     }
 ]
 
@@ -36,7 +34,7 @@ const Service = () => {
                     services.map(service =>
                         <div className='service-details'>
                             <div className="service-icon">
-                                <div><FontAwesomeIcon icon={faFacebook} /></div>
+                                <div><img src={service.icon}/></div>
                             </div>
                             <div className="service">
                                 <h2>{service.name}</h2>
