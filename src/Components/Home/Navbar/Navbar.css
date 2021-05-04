@@ -1,10 +1,12 @@
 
 
-.nav{
-    margin: 0 8%;
+.background{
+    background:  #0a3d62;
+    
 }
-.nav-gation{
-    position: sticky;
-    background: #0a3d62;
+.anondo{
     color: white;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
 }

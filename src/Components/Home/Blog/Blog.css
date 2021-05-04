@@ -5,4 +5,44 @@
     overflow: hidden;
     margin-top: 20px;
     border: none;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+.container{
+    margin-bottom: 30px;
+}
+.container h1{
+    text-align: center;
+    font-weight: 700;
+    color: #0a3d62;
+    position: relative;
+}
+
+
+.overly{
+    display: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.cards img{
+    transition: 0.5s all ease-in-out;
+}
+.cards:hover img{
+    transform: scale(1.2)
+}
+.cards:hover .overly{
+    display: block;
+    color: white;
+    z-index: auto;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn-blog{
+    padding: 5px 12px;
+    border: none;
+    background: #0a3d62;
+    border-radius: 5px;
+    color: white;
+
 }

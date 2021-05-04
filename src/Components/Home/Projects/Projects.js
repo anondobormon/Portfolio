@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Project.css'
 import img1 from '../../../image/lesopabeauty.png'
 import img2 from '../../../image/bdriders.png'
@@ -6,17 +6,22 @@ import img3 from '../../../image/league.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const Projects = () => {
+    useEffect(() => {
+        Aos.init({duration: 2000, delay: 0});
+    }, [])
     return (
         <section id='projects'>
             <div className="project-heading">
-                <h1>Projects</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem dolores fugit, alias minus possimus tempora sit! Ea error accusantium facilis!</p>
+                <h1 data-aos="fade-down">Projects</h1>
+                <p data-aos="zoom-out">Web development is the most important if you have a plan to enter in the online world. Website is considered like a window to the world of internet. In today’s business environment totally depend on virtual communication and to beat your competition large or small companies definitely you need to develop a good and Responsive Website.</p>
             </div>
             <div className="work">
                 <div className="project">
-                    <div className="project-image">
+                    <div  className="project-image">
                         <img src={img1} alt="" />
                     </div>
                     <div className="project-details">
@@ -29,8 +34,8 @@ const Projects = () => {
                             <button className="project-btn">Express JS</button>
                             <button className="project-btn">MongoDB</button>
                             <div className="project-link">
-                            <a className='link' target='blank' href="https://www.google.com/"><FontAwesomeIcon icon={faGithub} /></a>
-                            <a className='link' target='blank' href=""><FontAwesomeIcon icon={faLink} /></a>
+                            <a className='link' target='blank' href="https://github.com/anondobormon/Lesopa-Beauty-Client"><FontAwesomeIcon icon={faGithub} /></a>
+                            <a className='link' target='blank' href="https://leospa-beauty.web.app/"><FontAwesomeIcon icon={faLink} /></a>
                             </div>
                         </div>
                     </div>
@@ -49,8 +54,8 @@ const Projects = () => {
                             <button className="project-btn">Express JS</button>
                             <button className="project-btn">MongoDB</button>
                             <div className="project-link">
-                            <a className='link' target='blank' href="https://www.google.com/"><FontAwesomeIcon icon={faGithub} /></a>
-                            <a className='link' target='blank' href=""><FontAwesomeIcon icon={faLink} /></a>
+                            <a className='link' target='blank' href="https://github.com/anondobormon/BD-Riders"><FontAwesomeIcon icon={faGithub} /></a>
+                            <a className='link' target='blank' href="https://bd-rider-aff06.web.app/"><FontAwesomeIcon icon={faLink} /></a>
                             </div>
                         </div>
                     </div>
@@ -63,14 +68,13 @@ const Projects = () => {
                         <div className="details">
                             <small>03</small>
                             <h1>Champion League</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quae?. Incidunt, illum.</p>
+                            <p>Football related web application there is show team and details of team.</p>
                             <button className="project-btn">React JS</button>
                             <button className="project-btn">Node JS</button>
                             <button className="project-btn">Express JS</button>
-                            <button className="project-btn">MongoDB</button>
                             <div className="project-link">
-                            <a className='link' target='blank' href="https://www.google.com/"><FontAwesomeIcon icon={faGithub} /></a>
-                            <a className='link' target='blank' href=""><FontAwesomeIcon icon={faLink} /></a>
+                            <a className='link' target='blank' href="https://github.com/anondobormon/Champion-League"><FontAwesomeIcon icon={faGithub} /></a>
+                            <a className='link' target='blank' href="https://sharp-leakey-5bb830.netlify.app/"><FontAwesomeIcon icon={faLink} /></a>
                             </div>
                         </div>
                     </div>
