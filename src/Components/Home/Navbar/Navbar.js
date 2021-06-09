@@ -3,6 +3,7 @@ import "./Navbar.css";
 // import './Navbar.sass'
 import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -39,8 +40,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#projects">
-                  Projects
+                <a class="nav-link active" aria-current="page" href="">
+                  <Link to="allProjects">Projects</Link>
                 </a>
               </li>
               <li class="nav-item">
